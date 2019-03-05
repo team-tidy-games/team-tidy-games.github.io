@@ -174,14 +174,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.5);
 }
 .intro h1 {
-	font-family: 'Rochester', cursive;
+	font-family: 'Helvetica';
 	color: #fff;
 	font-size: 10em;
 	font-weight: 400;
-	margin-top: 600px;
+	margin-top: 555px;
 }
 .intro span {
 	color: #a7c44c;
@@ -212,7 +212,7 @@ header .intro-text {
 	padding: 120px 0;
 }
 #features .features-item {
-	margin: 0 20px;
+	margin: 0 25px;
 }
 #features img {
 	margin: 30px auto 20px;
@@ -271,6 +271,7 @@ header .intro-text {
 }
 #restaurant-menu .menu-section {
 	margin: 0 20px 80px;
+    text-align: center;
 }
 #restaurant-menu .menu-section-title {
 	font-size: 32px;
@@ -288,7 +289,6 @@ header .intro-text {
 	font-weight: 400;
 	font-size: 20px;
 	color: #444;
-	margin-bottom: 10px;
 }
 #restaurant-menu .menu-item-description {
 	font-size: 15px;
@@ -325,7 +325,6 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0;
 	background: #333;
 }
 #contact .contact-item p {
@@ -415,7 +414,7 @@ color: #999;
 /* Footer Section*/
 #footer {
 	background: #262626;
-	padding: 40px 0 20px 0;
+	padding: 25px 0 25px 0;
 }
 #footer .social {
 	margin-top: -5px;
