@@ -82,7 +82,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
-	vertical-align: top;
+	vertical-align: center;
 }
 .navbar .navbar-collapse {
 	text-align: center;
@@ -91,6 +91,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 20px;
 	transition: all 0.8s;
 }
+
 #menu.navbar-default {
 	background-color: rgba(15, 15, 15, 0.5);
 	border-color: rgba(231, 231, 231, 0);
@@ -100,14 +101,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #eee;
 	font-weight: 400;
 	font-size: 15px;
-	padding: 5px 0;
-	border: 2px solid transparent;
-	letter-spacing: 0.5px;
-	margin: 0 40px 0 40px;
+	padding: 10px 0;
+	border: 0px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-width: 10px;
+	letter-spacing: 0.75px;
+	margin: 0 10px 0 10px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #d43031;
+    border-color: #d43031;
 }
+
+#menu.navbar-default .navbar-nav > li > img
+{
+    display: inline-block;
+    width: 30%;
+}
+
 .on {
 	background-color: #262626 !important;
 	padding: 0 !important;
