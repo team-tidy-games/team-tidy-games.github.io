@@ -179,8 +179,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #FFF;
 }
 .section-title {
-    margin-top: 70px;
-	margin-bottom: 70px;
+    margin-top: 50px;
+	margin-bottom: 60px;
 }
 .section-title .overlay {
 	padding: 80px 0;
@@ -264,7 +264,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-	padding: 50px 0;
+	padding: 60px 0px 0px 0px;
 }
 #features .features-item {
 	margin: 0 25px;
@@ -289,7 +289,7 @@ header .intro-text {
 
 /* About Section */
 #about {
-	padding: 0;
+	padding: 10px;
 	background: #f6f6f6;
 }
 #about h2::after {
@@ -311,7 +311,7 @@ header .intro-text {
 }
 /* Menu Section */
 #restaurant-menu {
-	padding: 50px 0 60px 0;
+    
 }
 #restaurant-menu img {
 	width: 300px;
@@ -364,8 +364,9 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-	padding: 50px 0;
+    padding-bottom: 50px;
 }
+
 #team h2::after {
 	bottom: 0;
 	margin-left: 0;
@@ -377,6 +378,7 @@ header .intro-text {
 #team .team-img {
 	display: inline-block;
 	position: relative;
+    padding-left: 25%
 }
 /* Contact Section */
 #contact {
@@ -468,7 +470,7 @@ color: #999;
 }
 /* Footer Section*/
 #footer {
-	background: #00bfff;
+	background: #262626;
 	padding: 25px 0 25px 0;
 }
 #footer .social {
